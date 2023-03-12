@@ -6,7 +6,7 @@
   }
   
   body {
-	background-color: #f2f2f2;
+	background-color: #555151;
 	color: #fff;
 	font-family: sans-serif;
 	font-size: 16px;
@@ -16,7 +16,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #e91e63;
+	background-color: #da4e8b;
 	padding: 20px;
   }
   
@@ -30,12 +30,23 @@
   }
   
   nav ul li a {
+	font-size: 18px;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
 	color: #fff;
 	text-decoration: none;
   }
   
   nav ul li a:hover {
-	color: #f2f2f2;
+	font-size: 18px;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #fff;
+	color: #da4e8b;
   }
   
   main {
@@ -79,7 +90,7 @@
   }
   
   button {
-	background-color: #e91e63;
+	background-color: #da4e8b;
 	color: #fff;
 	font-size: 18px;
 	padding: 10px 20px;
@@ -89,8 +100,8 @@
   }
   
   button:hover {
-	background-color: #f2f2f2;
-	color: #e91e63;
+	background-color: #fff;
+	color: #da4e8b;
   }
   /* For mobile autoscaling CSS styles */
   @media only screen and (max-width: 600px) {
